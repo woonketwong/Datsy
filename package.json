@@ -1,0 +1,52 @@
+{
+  "name": "Datsy",
+  "version": "0.1.0",
+  "description": "Datsy-API is a free, open and simple API to access and explore an ever growing number of data sets.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Datsy/datsy-api"
+  },
+  "dependencies": {
+    "express": "~3.4.x",
+    "request": "~2.27.0",
+    "factual-api": "~1.0.6",
+    "pg": "~2.8.3",
+    "node-fs": "~0.1.7",
+    "csv": "~0.3.6",
+    "jade": "*",
+    "passport": "*",
+    "passport-local": "*",
+    "connect-flash": "*",
+    "email-templates": "0.0.5",
+    "nodemailer": "0.3.x",
+    "password-hash": "*",
+    "q": "*",
+    "underscore": "1.5.x",
+    "mailcomposer": "*",
+    "simplesmtp": "*",
+    "jugglingdb": "0.2.x",
+    "jugglingdb-postgres": "git://github.com/bradfordh/postgres-adapter.git#master",
+    "knex": "~0.4.13",
+    "azure": "~0.7.17",
+    "hat": "0.0.x"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-jshint": "~0.7.2",
+    "grunt-express-server": "~0.4.5",
+    "grunt-nodemon": "~0.1.2",
+    "grunt-mocha-cov": "0.0.7",
+    "grunt-shell": "~0.5.0",
+    "mocha": "~1.13.0",
+    "chai": "~1.8.1",
+    "coveralls": "~2.3.0",
+    "mocha-lcov-reporter": "0.0.1",
+    "superagent": "*",
+    "expect.js": "*",
+    "should": "*"
+  },
+  "scripts": {
+    "test": "grunt travis"
+  }
+}
